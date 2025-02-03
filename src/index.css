@@ -33,7 +33,7 @@ body {
 }
 
 .accordion > * {
-  padding: 0.75rem;
+  padding: 1.75rem;
 }
 
 .accordion_title {
@@ -48,4 +48,5 @@ body {
   border: none;
   font-size: 1.4rem;
   cursor: pointer;
+  margin-left: 20px;
 }
