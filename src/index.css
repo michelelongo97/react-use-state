@@ -33,7 +33,7 @@ body {
 }
 
 .accordion > * {
-  padding: 1.75rem;
+  padding: 1.25rem;
 }
 
 .accordion_title {
@@ -41,12 +41,15 @@ body {
   font-weight: bold;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .accordion_btn {
   border: none;
   font-size: 1.4rem;
   cursor: pointer;
-  margin-left: 20px;
+}
+
+.accordion_title.active {
+  background-color: yellow;
 }
